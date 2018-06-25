@@ -33,6 +33,7 @@
     "gatsby-remark-prismjs": "latest",
     "gatsby-remark-responsive-iframe": "latest",
     "gatsby-source-filesystem": "latest",
+    "gatsby-transformer-json": "^1.0.20",
     "gatsby-transformer-remark": "latest",
     "prismjs": "^1.15.0",
     "prop-types": "^15.6.2",

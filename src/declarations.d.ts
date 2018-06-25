@@ -13,7 +13,6 @@ declare module "react-disqus-comments" {
 }
 
 export interface SiteConfig {
-    blogPostDir: string, // The name of directory that contains your posts.
     siteTitle: string, // Site title.
     siteTitleAlt: string, // Alternative site title for SEO.
     siteLogo: string, // Logo used for SEO and manifest.
