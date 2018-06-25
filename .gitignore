@@ -59,3 +59,14 @@ typings/
 
 # next.js build output
 .next
+
+# Build Files
+public/
+.cache/
+
+# Gatsby context
+.gatsby-context.js
+
+# Bundle stats
+bundle-stats.json
+blog/

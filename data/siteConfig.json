@@ -1,0 +1,17 @@
+{
+    "blogPostDir": "data/blogs",
+    "siteTitle": "A simple tech review site",
+    "siteTitleAlt": "A simple tech review site",
+    "siteLogo": "/logos/logo-1024.png",
+    "siteUrl": "https://kaelzeth.github.io",
+    "pathPrefix": "/",
+    "fixedFooter": false,
+    "siteDescription": "A simple product review site",
+    "siteRss": "/rss.xml",
+    "siteFBAppID": "234567u8",
+    "siteGATrackingID": "2345678",
+    "siteGoogleVerification":"dfghjkl23456789",
+    "disqusShortname": "https-kaelzeth-github-io",
+    "postDefaultCategoryID": "Tech",
+    "copyright": "Copyright © 2018. Kael Zeth Inc"
+}
