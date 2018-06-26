@@ -7,8 +7,7 @@ declare module "react-disqus-comments" {
         identifier: string,
         title: string,
         url: string
-        category_id: string,
-        onNewComment: () => void
+        category_id: string
     }, {}> { }
 }
 

@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.0.0-beta.42":
+"@babel/runtime@^7.0.0-beta.42", "@babel/runtime@^7.0.0-beta.49":
   version "7.0.0-beta.51"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.0.0-beta.51.tgz#48b8ed18307034c6620f643514650ca2ccc0165a"
   dependencies:
@@ -3797,7 +3797,7 @@ fs-extra@6.0.1:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
-fs-extra@^4.0.1:
+fs-extra@^4.0.1, fs-extra@^4.0.2:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.3.tgz#0d852122e5bc5beb453fb028e9c0c9bf36340c94"
   dependencies:
@@ -4113,6 +4113,15 @@ gatsby-transformer-remark@latest:
     unist-util-remove-position "^1.1.1"
     unist-util-select "^1.5.0"
     unist-util-visit "^1.1.1"
+
+gatsby-transformer-sharp@^1.6.27:
+  version "1.6.27"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-1.6.27.tgz#89167e4d9fcd3cf772bc029380af9cdcd88e23a1"
+  dependencies:
+    babel-runtime "^6.26.0"
+    bluebird "^3.5.0"
+    fs-extra "^4.0.2"
+    probe-image-size "^4.0.0"
 
 gatsby@latest:
   version "1.9.273"
@@ -5884,6 +5893,10 @@ jsprim@^1.2.2:
 kebab-case@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/kebab-case/-/kebab-case-1.0.0.tgz#3f9e4990adcad0c686c0e701f7645868f75f91eb"
+
+keyboard-key@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/keyboard-key/-/keyboard-key-1.0.1.tgz#a946294fe59ad5431c63a3ea269f023e51fac6aa"
 
 keycode@^2.1.7:
   version "2.2.0"
@@ -8365,9 +8378,9 @@ react-dev-utils@^4.2.1:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-disqus-comments@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/react-disqus-comments/-/react-disqus-comments-1.1.1.tgz#439c47ed1746545a49c3224bd4bb32204f67cc29"
+react-disqus-comments@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-disqus-comments/-/react-disqus-comments-1.2.0.tgz#e5aae2ea6cdce998cfc1340aab11df1be68f71f5"
 
 react-dom@16.3.1:
   version "16.3.1"
@@ -9329,6 +9342,17 @@ select@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
 
+semantic-ui-react@^0.81.2:
+  version "0.81.2"
+  resolved "https://registry.yarnpkg.com/semantic-ui-react/-/semantic-ui-react-0.81.2.tgz#ceb98a1d4fd0189831c225e4e92ec82b0250d6e3"
+  dependencies:
+    "@babel/runtime" "^7.0.0-beta.49"
+    classnames "^2.2.5"
+    keyboard-key "^1.0.1"
+    lodash "^4.17.10"
+    prop-types "^15.6.1"
+    shallowequal "^1.0.2"
+
 semver-diff@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/semver-diff/-/semver-diff-2.1.0.tgz#4bbb8437c8d37e4b0cf1a68fd726ec6d645d6d36"
@@ -9491,7 +9515,7 @@ shallow-compare@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/shallow-compare/-/shallow-compare-1.2.2.tgz#fa4794627bf455a47c4f56881d8a6132d581ffdb"
 
-shallowequal@^1.0.1:
+shallowequal@^1.0.1, shallowequal@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
 

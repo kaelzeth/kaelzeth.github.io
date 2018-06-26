@@ -35,15 +35,17 @@
     "gatsby-source-filesystem": "latest",
     "gatsby-transformer-json": "^1.0.20",
     "gatsby-transformer-remark": "latest",
+    "gatsby-transformer-sharp": "^1.6.27",
     "prismjs": "^1.15.0",
     "prop-types": "^15.6.2",
     "react": "16.3.1",
-    "react-disqus-comments": "1.1.1",
+    "react-disqus-comments": "^1.2.0",
     "react-dom": "16.3.1",
     "react-helmet": "5.2.0",
     "react-md": "1.2.9",
     "react-share": "2.1.0",
-    "react-twitter-widgets": "1.7.1"
+    "react-twitter-widgets": "1.7.1",
+    "semantic-ui-react": "^0.81.2"
   },
   "devDependencies": {
     "@types/node": "latest",
