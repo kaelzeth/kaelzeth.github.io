@@ -1,5 +1,5 @@
 ---
-title: Welcoming
+title: Welcome to gatsby-starter!
 createdDate: '2017-04-18'
 updatedDate: '2017-05-06'
 author: michaeldg
