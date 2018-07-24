@@ -3,13 +3,14 @@ title: Welcome to gatsby-starter!
 createdDate: '2017-04-18'
 updatedDate: '2017-05-06'
 author: michaeldg
-categories: 
-  - "cat1 one"
+categories:
+  - cat1 one
 tags:
   - starter
   - gatsby
 feature_image: pexels-photo-253092.jpeg
 draft: false
+published: true
 ---
 
 Welcome to gatsby-starter!
